@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(210, 210, 210);
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    display: flex;
+    align-items:end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+nav li a{
+    color: darkgreen;
+    text-decoration: underline;
+    font-size: 23px;
+}
+hr{
+    border-style: none;
+    background-color:rgb(70, 69, 69);
+    height: 2px;
+    }
+h4{
+    color: darkgreen;
+}
+summary{
+    color:rgb(223, 86, 36);
+    font-size: 150%;
+}
+form input[type="submit"] {
+    background-color:darkgreen;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .submit_button{
+    margin-top: 10px;
+  }
+  footer {
+    background-color: rgb(223, 86, 36);
+    color: #000000;
+    padding: 10px;
+    width: 1500px;
+    text-align: center;
+  }
